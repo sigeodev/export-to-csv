@@ -1,0 +1,25 @@
+{
+  "name": "@sigeo/export-to-csv",
+  "version": "0.0.1",
+  "description": "Export to CSV - Simple way to generate a CSV from Vanilla JS!",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sigeodev/export-to-csv.git"
+  },
+  "author": "Sigeo SRL",
+  "license": "GPL3",
+  "bugs": {
+    "url": "https://github.com/sigeodev/export-to-csv/issues"
+  },
+  "homepage": "https://github.com/sigeodev/export-to-csv#readme",
+  "dependencies": {
+    "lodash.isempty": "^4.4.0",
+    "moment": "^2.24.0",
+    "typescript": "^3.5.1"
+  }
+}
