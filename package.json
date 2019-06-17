@@ -1,6 +1,6 @@
 {
   "name": "@sigeo/export-to-csv",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Export to CSV - Simple way to generate a CSV from Vanilla JS!",
   "main": "lib/index.js",
   "scripts": {
