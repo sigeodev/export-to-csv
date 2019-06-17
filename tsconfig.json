@@ -5,8 +5,7 @@
     "moduleResolution": "node",
     "removeComments": true,
     "outDir": "lib",
-    "skipLibCheck": true,
-    "allowSyntheticDefaultImports": true
+    "skipLibCheck": true
   },
   "exclude": [
     "./node_modules"

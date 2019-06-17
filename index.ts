@@ -1,12 +1,12 @@
-import isEmpty from "lodash/isEmpty";
-import moment, { Moment } from "moment";
+import * as isEmpty from "lodash/isEmpty";
+import * as moment from 'moment';
 
 const exportToCsv = (data, fileName?: string) => {
   if (isEmpty(data)) {
     return new Error("Export CSV - You should pass me an array of arrays!");
   }
 
-  const name: string|Moment = fileName || moment().format("YYYY-MM-DD");
+  const name: string = fileName || moment().format("YYYY-MM-DD");
   const csvContent: string = `data:text/csv;charset=utf-8,${data && data.map(e => e.join(",")).join("\n")}`;
   const encodedUri = encodeURI(csvContent);
 
