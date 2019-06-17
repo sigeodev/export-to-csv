@@ -1,4 +1,4 @@
-import { isEmpty } from "lodash.isempty";
+import isEmpty from "lodash/isEmpty";
 import moment, { Moment } from "moment";
 
 const exportToCsv = (data, fileName?: string) => {
